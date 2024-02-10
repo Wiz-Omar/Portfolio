@@ -1,0 +1,147 @@
+#bombit-video{
+    aspect-ratio: 1272/1010;
+    width: 100%;
+}
+#neighbour-video{
+    aspect-ratio: 794/858;
+    width: 100%;
+}
+.rectangle-video{
+    aspect-ratio: 3/2;
+    width: 100%;
+}
+
+.video-div{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+     /* changed this when having the description be its own section*/
+}
+div iframe{
+    border: 7px solid;
+    border-radius: 1%;
+    border-color: #343a40;
+}
+.nav-text{
+    color: white;
+    margin-bottom: 3%;
+}
+.collaborators-section {
+    background-color: #343a40; /* Match the color of the navbar */
+    color: #ffffff; /* Text color for better readability */
+    padding: 60px 0;
+}
+.collaborator-card {
+    border: none;
+    background-color: transparent;
+    color: #343a40;
+    margin-bottom: 4%;
+}
+.collaborator-card h5 {
+    margin-bottom: 10px;
+}
+h1{
+    color: #ffffff;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 2%;
+  background-color: #c9c9c9;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color:#343a40;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+.project-description {
+  background-color: #343a40; /* Match the color of the navbar */
+  color: #ffffff; /* Text color for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.project-description h2 {
+  margin-bottom: 10px;
+}
